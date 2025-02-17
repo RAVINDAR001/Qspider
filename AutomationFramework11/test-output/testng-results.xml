@@ -17,7 +17,7 @@
       <![CDATA[sucessfully]]>
     </line>
     <line>
-      <![CDATA[[ CON72 ] Villain - Contact Information.....passed...]]>
+      <![CDATA[[ CON73 ] Villain - Contact Information.....passed...]]>
     </line>
     <line>
       <![CDATA[logout sucsessfully]]>
@@ -29,19 +29,19 @@
       <![CDATA[---database connection disconnected--]]>
     </line>
   </reporter-output>
-  <suite started-at="2025-01-22T22:44:17 IST" name="Default suite" finished-at="2025-01-22T22:45:32 IST" duration-ms="75441">
+  <suite started-at="2025-02-14T14:17:18 IST" name="Default suite" finished-at="2025-02-14T14:18:38 IST" duration-ms="80097">
     <groups>
     </groups>
-    <test started-at="2025-01-22T22:44:17 IST" name="Default test" finished-at="2025-01-22T22:45:32 IST" duration-ms="75441">
+    <test started-at="2025-02-14T14:17:18 IST" name="Default test" finished-at="2025-02-14T14:18:38 IST" duration-ms="80097">
       <class name="vTiger.ContactTest.ToCreateContactTest">
-        <test-method is-config="true" signature="beforeSuitConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:44:17 IST" name="beforeSuitConfig" finished-at="2025-01-22T22:44:17 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="beforeSuitConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:17:18 IST" name="beforeSuitConfig" finished-at="2025-02-14T14:17:18 IST" duration-ms="6" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[data base connection established]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeSuitConfig -->
-        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:44:17 IST" name="beforeClassConfig" finished-at="2025-01-22T22:44:32 IST" duration-ms="15360" status="PASS">
+        <test-method is-config="true" signature="beforeClassConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:17:18 IST" name="beforeClassConfig" finished-at="2025-02-14T14:17:34 IST" duration-ms="15662" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[database connection established]]>
@@ -54,35 +54,35 @@
             </line>
           </reporter-output>
         </test-method> <!-- beforeClassConfig -->
-        <test-method is-config="true" signature="beforeMethodeConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:44:32 IST" name="beforeMethodeConfig" finished-at="2025-01-22T22:44:49 IST" duration-ms="16681" status="PASS">
+        <test-method is-config="true" signature="beforeMethodeConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:17:34 IST" name="beforeMethodeConfig" finished-at="2025-02-14T14:17:48 IST" duration-ms="14057" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[sucessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethodeConfig -->
-        <test-method signature="toCreateContactTest_001()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:44:49 IST" name="toCreateContactTest_001" finished-at="2025-01-22T22:45:29 IST" duration-ms="39896" status="PASS">
+        <test-method signature="toCreateContactTest_001()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:17:48 IST" name="toCreateContactTest_001" finished-at="2025-02-14T14:18:34 IST" duration-ms="46241" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[ CON72 ] Villain - Contact Information.....passed...]]>
+              <![CDATA[[ CON73 ] Villain - Contact Information.....passed...]]>
             </line>
           </reporter-output>
         </test-method> <!-- toCreateContactTest_001 -->
-        <test-method is-config="true" signature="afterMethodeConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:45:29 IST" name="afterMethodeConfig" finished-at="2025-01-22T22:45:32 IST" duration-ms="3034" status="PASS">
+        <test-method is-config="true" signature="afterMethodeConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:18:34 IST" name="afterMethodeConfig" finished-at="2025-02-14T14:18:38 IST" duration-ms="3723" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[logout sucsessfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethodeConfig -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:45:32 IST" name="afterClass" finished-at="2025-01-22T22:45:32 IST" duration-ms="421" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:18:38 IST" name="afterClass" finished-at="2025-02-14T14:18:38 IST" duration-ms="372" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Browser closed secssesfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-01-22T22:45:32 IST" name="afterSuitConfig" finished-at="2025-01-22T22:45:32 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterSuitConfig()[pri:0, instance:vTiger.ContactTest.ToCreateContactTest@38d8f54a]" started-at="2025-02-14T14:18:38 IST" name="afterSuitConfig" finished-at="2025-02-14T14:18:38 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[---database connection disconnected--]]>
