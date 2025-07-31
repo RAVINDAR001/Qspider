@@ -5,7 +5,7 @@
     <classes>
       <class name="vTiger.OrganizationTest.ToCreateOrganizationTest"/>
       <class name="vTiger.ContactTest.ToCreateContactTest"/>
-      <class name="vTiger.OrganizationTest.ToCreatProductPage"/>
+      <class name="vTiger.LeadsPage.ToCreateLeadsInfo"/>
       <class name="vTiger.Product.ToCreatProductPage"/>
     </classes>
   </test> <!-- Test -->

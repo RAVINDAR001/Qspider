@@ -14,7 +14,13 @@ public class HomePage {
 		private WebElement contactslink;
 
 		@FindBy(linkText = "Organizations")
+		
 		private WebElement Organizationlink;
+		 @FindBy(linkText = "Leads")
+		 private WebElement createleadsPage;
+
+		
+		 
 	
 		@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private	WebElement Logoutlink;
@@ -46,6 +52,9 @@ public class HomePage {
 			Organizationlink = organizationlink;
 		}
 		
+		public WebElement getCreateleadsPage() {
+			return createleadsPage;
+		}
 	
 
 }
