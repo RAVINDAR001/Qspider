@@ -18,10 +18,18 @@ public class HomePage {
 		private WebElement Organizationlink;
 		 @FindBy(linkText = "Leads")
 		 private WebElement createleadsPage;
+		 
+		 @FindBy(linkText = "Calendar")
+			private WebElement cliclonclaenderLink;
+
 
 		
 		 
 	
+		public WebElement getCliclonclaenderLink() {
+			return cliclonclaenderLink;
+		}
+
 		@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private	WebElement Logoutlink;
 		

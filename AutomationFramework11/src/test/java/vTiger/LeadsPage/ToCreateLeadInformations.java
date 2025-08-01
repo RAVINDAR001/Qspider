@@ -18,7 +18,7 @@ import vTiger.genericUtility.WebDriverUtility;
 public class ToCreateLeadInformations extends BaseClass{
 	@Test
 	public void tocreateleadsTest_001() throws EncryptedDocumentException, IOException {
-		ExcelFileUtiliyy euti = new ExcelFileUtiliyy();
+		ExcelFileUtiliyy eutil = new ExcelFileUtiliyy();
 		WebDriverUtility wutil = new WebDriverUtility();
 		HomePage hp = new HomePage(driver);
 		// click on leads link
@@ -33,17 +33,17 @@ public class ToCreateLeadInformations extends BaseClass{
 		
 		//fill information for leads for 1st name
 		
-		String FirstName = euti.toReadDataFromExcel("Sheet2", 0, 0);
+		String FirstName = eutil.toReadDataFromExcel("Sheet2", 0, 0);
 		lip.getFirstname().sendKeys(FirstName);
 		Reporter.log("FirstNme created sucseesfully",true);
 		
 		//fill information for leads for last name
-		String LastName = euti.toReadDataFromExcel("Sheet2", 1, 0);
+		String LastName = eutil.toReadDataFromExcel("Sheet2", 1, 0);
 		lip.getLastname().sendKeys(LastName);
 		Reporter.log("lastname sucsess",true);
 		
 		////fill information for leads for Company name
-		String CompanyName = euti.toReadDataFromExcel("Sheet2", 2 , 0);
+		String CompanyName = eutil.toReadDataFromExcel("Sheet2", 2 , 0);
 		lip.getCompanyname().sendKeys(CompanyName);
 		Reporter.log("comapny name created sucsess",true);
 		
