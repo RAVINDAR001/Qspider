@@ -9,60 +9,62 @@ public class HomePage {
 	public HomePage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-		
-		@FindBy(linkText = "Contacts")
-		private WebElement contactslink;
 
-		@FindBy(linkText = "Organizations")
-		
-		private WebElement Organizationlink;
-		 @FindBy(linkText = "Leads")
-		 private WebElement createleadsPage;
-		 
-		 @FindBy(linkText = "Calendar")
-			private WebElement cliclonclaenderLink;
+	@FindBy(linkText = "Contacts")
+	private WebElement contactslink;
 
+	@FindBy(linkText = "Organizations")
 
-		
-		 
+	private WebElement Organizationlink;
+	@FindBy(linkText = "Leads")
+	private WebElement createleadsPage;
+
+	@FindBy(linkText = "Calendar")
+	private WebElement cliclonclaenderLink;
+
+	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
+	private WebElement Logoutlink;
+
+	@FindBy(linkText = "Sign Out")
+	private WebElement Logoutbutton;
 	
-		public WebElement getCliclonclaenderLink() {
-			return cliclonclaenderLink;
-		}
+	@FindBy(linkText = "Trouble Tickets")
+	private WebElement TroubleTicketLink;
 
-		@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
-	private	WebElement Logoutlink;
-		
-		@FindBy(linkText = "Sign Out")
-	private	WebElement Logoutbutton;
+	public WebElement getTroubleTicketLink() {
+		return TroubleTicketLink;
+	}
 
-		public WebElement getLogoutlink() {
-			return Logoutlink;
-		}
+	public WebElement getCliclonclaenderLink() {
+		return cliclonclaenderLink;
+	}
 
-		public WebElement getLogoutbutton() {
-			return Logoutbutton;
-		}
+	public WebElement getLogoutlink() {
+		return Logoutlink;
+	}
 
-		public WebElement getContactslink() {
-			return contactslink;
-		}
+	public WebElement getLogoutbutton() {
+		return Logoutbutton;
+	}
 
-		public WebElement getOrganizations() {
-			return Organizationlink;
-		}
+	public WebElement getContactslink() {
+		return contactslink;
+	}
 
-		public WebElement getOrganizationlink() {
-			return Organizationlink;
-		}
+	public WebElement getOrganizations() {
+		return Organizationlink;
+	}
 
-		public void setOrganizationlink(WebElement organizationlink) {
-			Organizationlink = organizationlink;
-		}
-		
-		public WebElement getCreateleadsPage() {
-			return createleadsPage;
-		}
-	
+	public WebElement getOrganizationlink() {
+		return Organizationlink;
+	}
+
+	public void setOrganizationlink(WebElement organizationlink) {
+		Organizationlink = organizationlink;
+	}
+
+	public WebElement getCreateleadsPage() {
+		return createleadsPage;
+	}
 
 }

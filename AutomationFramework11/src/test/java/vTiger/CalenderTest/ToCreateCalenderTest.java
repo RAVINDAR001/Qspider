@@ -16,7 +16,7 @@ import vTiger.genericUtility.WebDriverUtility;
 
 public class ToCreateCalenderTest extends BaseClass {
 	
-	@Test
+	@Test(priority = 1)
 	public void TocreateCalenderDate() throws EncryptedDocumentException, IOException {
 		HomePage hp=new HomePage(driver);
 		hp.getCliclonclaenderLink().click();

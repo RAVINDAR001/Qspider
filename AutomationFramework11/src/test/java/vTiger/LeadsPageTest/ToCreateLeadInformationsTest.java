@@ -55,7 +55,9 @@ public class ToCreateLeadInformationsTest extends BaseClass{
 		//validation
 		LeadInformationpagesucsessfull  sucsess=new LeadInformationpagesucsessfull(driver);
 		String createdsucsess = sucsess.getPagecreatedsucsesfull().getText();
-		
+		//WebDriverUtility wutil1=new WebDriverUtility();
+		//wutil1.ToTakeScreenShot(driver, createdsucsess);
+
 		AssertJUnit.assertTrue(createdsucsess.contains(FirstName));
 
 }}
