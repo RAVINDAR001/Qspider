@@ -1,5 +1,7 @@
-package vTiger.Product;
+package vTiger.ProductTest;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -17,7 +19,7 @@ import vTiger.genericUtility.BaseClass;
 import vTiger.genericUtility.ExcelFileUtiliyy;
 import vTiger.genericUtility.WebDriverUtility;
 
-public class ToCreatProductPage extends  BaseClass {
+public class ToCreatProductPageTest extends  BaseClass {
 	@Test
 	public void tocreateProductPage() throws EncryptedDocumentException, IOException {
 		//WebDriver driver =null;

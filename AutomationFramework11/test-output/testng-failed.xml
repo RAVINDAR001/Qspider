@@ -3,7 +3,7 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="vTiger.Calender.ToCreateCalender">
+      <class name="vTiger.CalenderTest.ToCreateCalenderTest">
         <methods>
           <include name="beforeSuitConfig"/>
           <include name="afterMethodeConfig"/>
@@ -14,7 +14,7 @@
           <include name="tocreateMeetingEvents"/>
           <include name="TocreateCalenderDate"/>
         </methods>
-      </class> <!-- vTiger.Calender.ToCreateCalender -->
+      </class> <!-- vTiger.CalenderTest.ToCreateCalenderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

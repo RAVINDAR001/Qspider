@@ -1,5 +1,7 @@
 package vTiger.OrganizationTest;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -45,7 +47,7 @@ public class ToCreateOrganizationTest extends BaseClass {
 		// }else {
 		// Reporter.log("..failled...", true);
 		// }
-		Assert.assertTrue(orginformation.contains(ORGNAME));
+		AssertJUnit.assertTrue(orginformation.contains(ORGNAME));
 
 	}
 

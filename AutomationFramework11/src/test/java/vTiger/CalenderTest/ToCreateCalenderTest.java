@@ -1,5 +1,6 @@
-package vTiger.Calender;
+package vTiger.CalenderTest;
 
+import org.testng.annotations.Test;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
@@ -13,7 +14,7 @@ import vTiger.genericUtility.BaseClass;
 import vTiger.genericUtility.ExcelFileUtiliyy;
 import vTiger.genericUtility.WebDriverUtility;
 
-public class ToCreateCalender extends BaseClass {
+public class ToCreateCalenderTest extends BaseClass {
 	
 	@Test
 	public void TocreateCalenderDate() throws EncryptedDocumentException, IOException {

@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="vTiger.Calender.ToCreateCalender"/>
+      <class name="vTiger.CalenderTest.ToCreateCalenderTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -11,6 +11,11 @@
     <classes>
       <class name="vTiger.OrganizationTest.ToCreateOrganizationTest"/>
     </classes>
+  </test>
+     <test thread-count="2" parallel="tests" name="Test3">
+    <classes>
+		<class name="vTiget.LeadsPage.ToCreatProductPage"></class>
+	</classes>
   </test> <!-- Test -->
   
 </suite> <!-- Suite -->

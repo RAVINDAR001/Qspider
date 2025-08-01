@@ -1,5 +1,6 @@
 package vTiger.ContactTest;
 
+import org.testng.annotations.Test;
 import static org.testng.Assert.fail;
 
 import java.io.IOException;

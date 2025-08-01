@@ -5,9 +5,9 @@
     <classes>
       <class name="vTiger.OrganizationTest.ToCreateOrganizationTest"/>
       <class name="vTiger.ContactTest.ToCreateContactTest"/>
-      <class name="vTiger.Calender.ToCreateCalender"/>
-      <class name="vTiger.Product.ToCreatProductPage"/>
-      <class name="vTiger.LeadsPage.ToCreateLeadInformations"/>
+      <class name="vTiger.CalenderTest.ToCreateCalenderTest"/>
+      <class name="vTiger.ProductTest.ToCreatProductPageTest"/>
+      <class name="vTiger.LeadsPageTest.ToCreateLeadInformationsTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
